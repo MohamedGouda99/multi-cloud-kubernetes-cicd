@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: production
+data:
+  APP_ENV: "production"
+  LOG_LEVEL: "info"
+  GCP_PROJECT: "your-project-id"
+  GCP_REGION: "us-central1"
+
